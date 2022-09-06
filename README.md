@@ -1,2 +1,0 @@
-# StepikPySelenCourse
-задачки курса степик
