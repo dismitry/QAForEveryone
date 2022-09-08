@@ -1,20 +1,19 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-import time
+# Напишите программу, которая проверяет здоровье персонажа в игре. Если оно равно или меньше нуля, выведите на экран False, в противном случае True.
 
-browser = webdriver.Chrome()
+x = -2
+health = ''
+if x <= 0:
+  health = 'death'
+else:
+  health = 'live'
+print(health)
 
-try:
+# Напишите программу, которая на входе получает имя пользователя, cохраняет его в переменную и выводит строку  "Hello {user_name}!" 
 
-    browser.get("http://suninjuly.github.io/huge_form.html")
-    elements = browser.find_elements(By.TAG_NAME, "input")
-    for element in elements:
-        element.send_keys("a")
+x = input('user_name:');
+print(f'Hello, {x}')
 
-    button = browser.find_element(By.CSS_SELECTOR, "button.btn")
-    button.click()
+# Напишите программу, чтобы вывести изображение квадратика
 
-finally:
-
-    time.sleep(10)
-    browser.quit()
+x = '*********\n*       *\n*       *\n*********'
+print(x)
