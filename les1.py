@@ -25,3 +25,13 @@ if x % 2 == 0:
   print('even')
 else:
   print('odd')
+
+# Проверка високосности
+
+x = int(input('year:'))
+if (x % 4 == 0 and x % 100 != 0) 
+    or x % 400 == 0:
+  print('bissextile')
+else:
+  print('non-leap')
+  
