@@ -9,3 +9,6 @@ stroka = ['Hi', 'ananas', 2, None, 75, 'pizza', 35, 100]
 
 chisla = [i for i in stroka if isinstance(i, (int, float))]
 print(sum(chisla))
+# либо
+cymma = stroka[2]+stroka[4]+stroka[6]+stroka[7]
+print(cymma)
