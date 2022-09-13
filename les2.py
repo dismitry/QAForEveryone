@@ -3,3 +3,9 @@
 my_list = ['a', 'b', [1, 2, 3], 'd']
 print(my_list[2])
 
+# Дан список list_1 = ['Hi', 'ananas', 2, None, 75, 'pizza', 36, 100]: 1) получите сумму всех чисел; 2) распечатайте все строки, где есть буква 'a'
+
+stroka = ['Hi', 'ananas', 2, None, 75, 'pizza', 35, 100]
+
+chisla = [i for i in stroka if isinstance(i, (int, float))]
+print(sum(chisla))
