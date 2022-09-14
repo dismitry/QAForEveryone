@@ -12,3 +12,13 @@ print(sum(chisla))
 # либо
 cymma = stroka[2]+stroka[4]+stroka[6]+stroka[7]
 print(cymma)
+
+# Превратите лист в кортеж
+
+list = ('cat', 'dog', 'horse', 'cow')
+print(list)
+print(type(list)) # Литеральное объявление
+# либо
+list1 = tuple('cat dog horse cow')
+print(list1)
+print(type(list1)) # Через функцию tuple
