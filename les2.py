@@ -22,3 +22,18 @@ print(type(list)) # Литеральное объявление
 list1 = tuple('cat dog horse cow')
 print(list1)
 print(type(list1)) # Через функцию tuple
+
+# Определить, какая семья больше 
+# 1) Программа имеет два input() 2) Членов семьи нужно перечислить через запятую. результат - программа выводит семью с бОльшим составом. 
+# Если равно - print("Equal')
+
+f1 = ('ma', 'son', 'ba', 'granny')
+f2 = ('pa', 'ma', 'son')
+print(type(f1))
+print(type(f2))
+if len(f1) > len(f2):
+	print('f1')
+elif len(f1) == len(f2):
+	print('Equal')
+else:
+	print('f2')
