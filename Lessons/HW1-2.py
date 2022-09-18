@@ -7,7 +7,7 @@ else:
   health = 'live'
 print(health)
 
-# Напишите программу, которая на входе получает имя пользователя, cохраняет его в переменную и выводит строку  "Hello {user_name}!" 
+# Напишите программу, которая на входе получает имя пользователя, cохраняет его в переменную и выводит строку  "Hello {user_name}!"
 
 x = input('user_name:');
 print(f'Hello, {x}')
@@ -28,14 +28,14 @@ else:
 # Проверка високосности
 
 x = int(input('year:'))
-if (x % 4 == 0 and x % 100 != 0) 
+if (x % 4 == 0 and x % 100 != 0)
     or x % 400 == 0:
   print('bissextile')
 else:
   print('non-leap')
-  
+
 # Напишите программу, которая печатает введенный текст заданное количество раз, построчно.
 
 x = int(input('points:'))
-for text in range(5): 
+for text in range(5):
   print('text')
