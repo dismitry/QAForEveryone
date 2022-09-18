@@ -1,3 +1,3 @@
-QAForEveryone
-Задания курса QAForEveryone
+
+Задания курса QAForEveryone 
 
